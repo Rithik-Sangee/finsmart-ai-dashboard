@@ -22,6 +22,20 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          hover: "hsl(var(--primary-hover))",
+          light: "hsl(var(--primary-light))",
+        },
+        success: {
+          DEFAULT: "hsl(var(--success))",
+          light: "hsl(var(--success-light))",
+        },
+        warning: {
+          DEFAULT: "hsl(var(--warning))",
+          light: "hsl(var(--warning-light))",
+        },
+        danger: {
+          DEFAULT: "hsl(var(--danger))",
+          light: "hsl(var(--danger-light))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
@@ -46,6 +60,7 @@ export default {
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
+          shadow: "hsl(var(--card-shadow))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
@@ -57,6 +72,15 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      backgroundImage: {
+        'gradient-primary': 'var(--gradient-primary)',
+        'gradient-success': 'var(--gradient-success)',
+        'gradient-card': 'var(--gradient-card)',
+      },
+      boxShadow: {
+        'card': 'var(--shadow-card)',
+        'elevated': 'var(--shadow-elevated)',
       },
       borderRadius: {
         lg: "var(--radius)",
